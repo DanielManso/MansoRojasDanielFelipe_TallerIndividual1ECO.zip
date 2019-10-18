@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_control"
+    android:paddingBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="60dp">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="60dp">
+
+                        <Button
+                            android:id="@+id/btn_mensaje0"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/bordes_redondos2"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Recargar"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="60dp">
+
+                        <Button
+                            android:id="@+id/btn_mensaje1"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/bordes_redondos3"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Disparar"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textAlignment="center"/>
+
+                </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
